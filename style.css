@@ -271,6 +271,13 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
+.citation 
+{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+   
+}
 
 .row-no-gutters {
     margin-right: 0;
