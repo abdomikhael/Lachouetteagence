@@ -277,7 +277,20 @@ a:hover {
     width: 65%;
     margin: auto;
 
+
 }
+@media screen and (max-width:  320px ){
+.citation 
+{
+    
+    width: 90%;
+    margin: auto;
+
+
+}
+
+}
+
 
 .row-no-gutters {
     margin-right: 0;
@@ -715,6 +728,12 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
+@media screen and (max-width: 320px){
+    h2
+    {
+        font-size: 15px;
+    }
+}
 
 h3 {
     font-size: 15px;
@@ -762,6 +781,12 @@ h4 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
+}
+@media screen and (max-width: 425px){
+    .black-background{  
+       padding:0
+   }
+
 }
 
 .bold-link {
@@ -829,7 +854,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
